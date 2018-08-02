@@ -1,1 +1,2 @@
-prompt skwp
+#prompt skwp
+prompt steeef_simplified

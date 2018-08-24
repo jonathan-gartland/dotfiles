@@ -33,8 +33,8 @@ alias df='df -h'
 alias du='du -h -d 2'
 
 if [[ $platform == 'linux' ]]; then
-  alias ll='ls -alh --color=auto'
-  alias ls='ls --color=auto'
+  alias ll='ls -alhtrF --color=auto'
+  alias ls='ls -F --color=auto'
 elif [[ $platform == 'darwin' ]]; then
   alias ll='ls -alGhF'
   alias ls='ls -GhFp'

@@ -126,7 +126,7 @@
 [include]
   path = .gitconfig.user
 [user]
-	name = Jonathan Gartland
+	name = jonathan-gartland
 	email = jonathan.gartland@rstudio.com
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f

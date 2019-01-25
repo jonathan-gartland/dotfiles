@@ -33,11 +33,11 @@ alias df='df -h'
 alias du='du -h -d 2'
 
 if [[ $platform == 'linux' ]]; then
-  alias ll='ls -alh --color=auto'
-  alias ls='ls --color=auto'
+  alias ll='ls -alhtrF --color=auto'
+  alias ls='ls -F --color=auto'
 elif [[ $platform == 'darwin' ]]; then
-  alias ll='ls -alGh'
-  alias ls='ls -Gh'
+  alias ll='ls -alGhF'
+  alias ls='ls -GhFp'
 fi
 
 # show me files matching "ls grep"
@@ -138,6 +138,7 @@ alias l='less'
 alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
+alias clr='clear;echo "Currently logged in on $(tty), as $(whoami) in directory $(pwd)."'
 
 # Zippin
 alias gz='tar -zcvf'
@@ -210,4 +211,5 @@ alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
-alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'
+alias brewu='brew update  && brew upgrade && brew cleanup && brew doctor'
+

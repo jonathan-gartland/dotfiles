@@ -127,11 +127,10 @@
   path = .gitconfig.user
 [user]
 	name = jonathan-gartland
-	email = jonathan.gartland@rstudio.com
+	email = jonathan.gartland@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[credential]
-	helper = osxkeychain
+

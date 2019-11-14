@@ -127,7 +127,7 @@
   path = .gitconfig.user
 [user]
 	name = jonathan-gartland
-	email = jonathan.gartland@rstudio.com
+	email = jgartland@cashstar.com
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
